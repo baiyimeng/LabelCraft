@@ -1,0 +1,6 @@
+#model config
+hid_units: [200, 80, 1]
+
+#labeler config
+feedback_num: 3
+dim_num: 256
