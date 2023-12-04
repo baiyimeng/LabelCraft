@@ -1,0 +1,56 @@
+def init_dataset_setting_kuaishou():
+
+    global load_path, ckpt, train_file, valid_file, test_file
+    global item_id_num, item_id_dim, item_duration_num, item_duration_dim, item_tag_num, item_tag_dim, user_id_num, user_id_dim
+    global max_rec_his_len    
+
+    """data files info"""
+    load_path = './data/kuaishou'
+    ckpt = 'ckpt'
+    
+    train_file = '/train.pkl'
+    valid_file = '/valid.pkl'
+    test_file = '/test.pkl'
+
+    """item/user/query feature"""
+    item_id_num =  46628 + 1 #zero for padding
+    item_id_dim =  12
+    item_duration_num = 92
+    item_duration_dim = 12
+    item_tag_num = 785
+    item_tag_dim = 12
+
+    user_id_num = 989
+    user_id_dim = 12
+
+    """experiment config"""
+    max_rec_his_len = 100
+
+
+def init_dataset_setting_wechat():
+
+    global load_path, ckpt, train_file, valid_file, test_file
+    global item_id_num, item_id_dim, item_duration_num, item_duration_dim, item_tag_num, item_tag_dim, user_id_num, user_id_dim
+    global max_rec_his_len    
+
+    """data files info"""
+    load_path = './data/wechat'
+    ckpt = 'ckpt'
+    
+    train_file = '/train.pkl'
+    valid_file = '/valid.pkl'
+    test_file = '/test.pkl'
+
+    """item/user/query feature"""
+    item_id_num =  12992 + 1 #zero for padding
+    item_id_dim =  12
+    item_duration_num = 63
+    item_duration_dim = 12
+    item_tag_num = 80
+    item_tag_dim = 12
+
+    user_id_num = 15075
+    user_id_dim = 12
+
+    """experiment config"""
+    max_rec_his_len = 100
