@@ -1,1 +1,4 @@
 The dataset is released in the WeChat Big Data Challenge (https://algo.weixin.qq.com/).
+
+DownLoad: https://rec.ustc.edu.cn/share/57c29940-9db2-11ef-9317-7d7bb919bf5d
+Password: 5277
