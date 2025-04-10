@@ -1,5 +1,5 @@
 # LabelCraft
-[![arXiv](https://img.shields.io/badge/arXiv-2502.09992-red.svg)](https://arxiv.org/abs/2312.10947)
+[![arXiv](https://img.shields.io/badge/arXiv-2312.10947-red.svg)](https://arxiv.org/abs/2312.10947)
 This is the pytorch implementation of our paper at WSDM 2024:
 > [LabelCraft: Empowering Short Video Recommendations with Automated Label Crafting](https://arxiv.org/abs/2312.10947)
 > 
